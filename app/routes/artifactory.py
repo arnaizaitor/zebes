@@ -21,7 +21,7 @@ def save_mock(data):
 MOCK_BINARIES = load_mock()
 
 @router.get("/{repo}/{full_path:path}")
-def check_binary(repo: str, full_path: str):
+def download_binary(repo: str, full_path: str):
     if repo not in MOCK_BINARIES:
         return JSONResponse(status_code=404, content={"error": f"Repo '{repo}' not found"})
 

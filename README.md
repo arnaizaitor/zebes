@@ -2,7 +2,13 @@
 
 ## How to deploy ZEBES
 
+### Local server
+
 ```uvicorn app.main:app --host 0.0.0.0 --port 8000```
+
+### Docker server
+
+```docker-compose up --build```
 
 # Tips & Tricks
 

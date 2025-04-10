@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  zebes:
+    container_name: zebes-server
+    build:
+      context: .
+    hostname: zebes
+    ports:
+      - "8000:8000"
+    networks:
+      - zebes-net
+
+networks:
+  zebes-net:
+    driver: bridge
