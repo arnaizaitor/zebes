@@ -5,12 +5,9 @@ app = FastAPI(
     title="ZEBES",
     description="Zone for Emulated Behavior of External Services",
     version="0.1.0",
-    contact={
-        "name": "SAMUS Team",
-        "email": "samus@airbus.com"
-    },
+    contact={"name": "SAMUS Team", "email": "samus@airbus.com"},
     docs_url="/docs",
-    redoc_url="/redoc"
+    redoc_url="/redoc",
 )
 
 
