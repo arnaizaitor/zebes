@@ -1,0 +1,12 @@
+{
+  "libs-release-local": [
+    "com/myapp/app/1.0.0/app-1.0.0.jar",
+    "com/otra/cosa/2.3.4/file.zip"
+  ],
+  "libs-snapshot-local": [
+    "com/test/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.jar"
+  ],
+  "AR_SW_Devops_Release": [
+    "Python/python_3.11.6_SAMUS.zip"
+  ]
+}
